@@ -1,0 +1,6 @@
+[submodule "PoseEstimation-FCN-Torch"]
+	path = PoseEstimation-FCN-Torch
+	url = git@github.com:guopei/PoseEstimation-FCN-Torch.git
+[submodule "PoseEstimation-FCN-Pytorch"]
+	path = PoseEstimation-FCN-Pytorch
+	url = git@github.com:guopei/PoseEstimation-FCN-Pytorch.git
