@@ -6,6 +6,14 @@ This repositaty contains the code and trained models for our WACV 2019 paper: "A
 
 We have two sub-modules for pose estimation frametwork. One is written in Torch (Lua) with ResNet-50 as back-bone network. The other is written in Pytorch (Python) with ResNet-34 as back-bone network. 
 
+## Patch Feature Extraction
+
+Now the patch feature extractor network is added as Feature-Extraction folder. 
+
+Torch needs to be installed in order to run the `simple.sh` for training.
+
+Specify your own dataset path and pretrained model path in `simple.sh`.
+
 <!---Self-defined FCN model: [LINK](http://google.com)-->
 
 <!---To run the model on test sets, run `th ./fcn.lua`-->
@@ -16,7 +24,6 @@ We have two sub-modules for pose estimation frametwork. One is written in Torch 
 
 TODOS:
 
-## Patch Feature Extraction
 
 <!---To evaluate patch accuracy, run `th ./evaluate_patch.lua`-->
 
